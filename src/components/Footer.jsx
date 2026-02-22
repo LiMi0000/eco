@@ -8,7 +8,7 @@ export const Footer = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 items-center">
 
-                    {/* LEFT - Description */}
+                    {/* Left - Description */}
                     <div>
                         <p className="text-sm text-gray-400 mb-6 max-w-sm text-center">
                             Empowering the next generation to lead with sustainability, compassion, and knowledge.
@@ -30,12 +30,12 @@ export const Footer = () => {
                         </div>
                     </div>
 
-                    {/* CENTER - Logo */}
+                    {/* Center - Logo */}
                     <div className="flex flex-col items-center text-center justify-center">
                         <img src="/eco-logo-rmvbg.png" alt="Eco Logo" className="w-64 h-64 object-contain" />
                     </div>
 
-                    {/* RIGHT - Quick Links */}
+                    {/* Right - Quick Links */}
                     <div className="md:text-right">
                         <h4 className="text-white font-bold mb-4">Quick Links</h4>
                         <ul className="space-y-2 text-md">

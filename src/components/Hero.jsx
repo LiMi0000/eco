@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 export const Hero = () => {
     return (
         <div className="relative h-screen min-h-[600px] flex items-center justify-center">
-            {/* Background Image with Overlay */}
+            {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
                     src="https://images.pexels.com/photos/5212338/pexels-photo-5212338.jpeg"

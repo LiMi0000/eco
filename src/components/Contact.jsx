@@ -5,7 +5,6 @@ import contact from '../assets/contact.svg';
 export const Contact = () => {
     return (
         <section id="contact" className="py-20 bg-green-800 text-white relative overflow-hidden">
-            {/* Decorative background elements */}
             <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-green-700 rounded-full opacity-50 blur-3xl"></div>
             <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-green-900 rounded-full opacity-50 blur-3xl"></div>
 

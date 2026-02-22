@@ -6,12 +6,12 @@ export default function ScrollToHash() {
 
     useEffect(() => {
         const navEntry = performance.getEntriesByType("navigation")[0];
-        const navType = navEntry?.type; // "navigate" | "reload" | "back_forward" | ...
+        const navType = navEntry?.type; // "navigate" | "reload" | "back_forward" |
 
         // If user refreshed and URL contains a hash, remove it and go to top
         if (navType === "reload") {
             if (hash) {
-                window.history.replaceState(null, "", `${pathname}${search}`); // remove #...
+                window.history.replaceState(null, "", `${pathname}${search}`);
             }
             window.scrollTo({ top: 0, behavior: "auto" });
             return;

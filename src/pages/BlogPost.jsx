@@ -31,7 +31,7 @@ export default function BlogPost() {
         <div className="min-h-screen bg-white">
             <div className="max-w-3xl mx-auto px-6 py-20">
 
-                {/* Back */}
+                {/* Go back button */}
                 <div className="mb-12">
                     <Link
                         to="/#blog"

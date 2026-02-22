@@ -54,7 +54,7 @@ export default function Impact() {
                     </p>
                 </div>
 
-                {/* Stats Row */}
+                {/* Stats */}
                 <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 
                 sm:divide-x sm:divide-gray-200">
 

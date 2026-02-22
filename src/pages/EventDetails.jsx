@@ -92,7 +92,7 @@ export default function EventDetails() {
 
     return (
         <div className="min-h-screen bg-white">
-            {/* Top hero */}
+            {/* Hero banner part of the events */}
             <div className="relative h-[44vh] min-h-[320px] w-full">
                 <img
                     src={event.image}
@@ -126,7 +126,6 @@ export default function EventDetails() {
 
             {/* Content */}
             <div className="max-w-4xl mx-auto px-6 py-12">
-                {/* Meta */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="rounded-2xl border border-gray-200 p-5">
                         <div className="flex items-center gap-2 text-sm text-gray-600">
@@ -187,7 +186,6 @@ export default function EventDetails() {
                     </section>
                 </div>
 
-                {/* CTA */}
                 <div className="mt-12 rounded-3xl bg-green-700 p-8 text-white">
                     <h3 className="text-2xl font-bold">Want to join?</h3>
                     <p className="mt-2 text-white/90">
