@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Eco-shkollat",
+    "date": "23.01.2026",
+    "time": "12:00 deri 13:00",
+    "location": "Nace Bugjoni-Kumanovë",
+    "description": "Marrja e njohurive të duhura mbi zhvillimin e qëndrueshëm dhe kuptimi i eco shkollave.",
+    "image": "https://images.unsplash.com/photo-1755718669933-47d644395aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncm91cCUyMG9mJTIwcGVvcGxlJTIwZWNvJTIwd29ya3Nob3AlMjBldmVudHxlbnwxfHx8fDE3NzAxMjgzNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Aktivitet teorik"
+  },
+  {
+    "id": 2,
+    "title": "Aktivitetet makinerike dhe ruajtja e ambientit",
+    "date": "30.01.2026",
+    "time": "12:00 deri 13:00",
+    "location": "Nace Bugjoni-Kumanovë ",
+    "description": "Marrja e njohurive të duhura mbi mbrojtjen e mjedisit nga aktivitetet makinerike, duke ndjekur trajnime periodike dhe praktikat e mbrojtjes së mjedisit.",
+    "image": "https://images.unsplash.com/photo-1721814131928-4cfcfdbd1c2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBlY28lMjBmcmllbmRseSUyMHNjaG9vbCUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MXx8fHwxNzcwMTI4MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Aktivitet teorik"
+  },
+  {
+    "id": 3,
+    "title": "Mbeturinat elektronike dhe pasojat e saj në ambient.",
+    "date": "06.02.2026",
+    "time": "12:00 deri 13:00",
+    "location": "Nace Bugjoni-Kumanovë",
+    "description": "Ndikimet e pajisjeve elektronike dhe e-mbeturinave, si dhe mënyrat për menaxhimin e tyre në mënyrë të qëndrueshme.",
+    "image": "https://images.unsplash.com/photo-1642439986788-825f9075691e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwd3JpdGluZyUyMGluJTIwbm90ZWJvb2slMjBuYXR1cmUlMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc3MDEyODM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Aktivitet teorik"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Eko-shkollat",
+    "excerpt": "Krijimi i Eco shkollave. Zhvillimi i Qëndrueshëm, Objektivat e Zhvillimit të Qëndrueshëm dhe Edukimi për Zhvillim të Qëndrueshëm ",
+    "author": "Halim Misini",
+    "date": "Feb 10, 2026",
+    "tags": ["Eko-shkollat"]
+  },
+  {
+    "id": 2,
+    "title": "Aktivitetet makinerike dhe ruatja e ambientit",
+    "excerpt": "Gjatë procesit të prerjes së metaleve, retifikimit dhe/ose formimit (duke përfshirë farkëtim, nxjerrje teli, shtypje dhe të tjera) ndodh avullimi i lëngjeve për prerje ( në proceset ku nxehen fluidet për prerje/ lubrifikim/ ftohje (p.sh. Nxjerrja e telit)).",
+    "author": "Halim Misini",
+    "date": "13.02.2026",
+    "tags": ["Emetimet në ajër"]
+  },
+  {
+    "id": 3,
+    "title": "Mbeturinat elektronike dhe pasojat e saj në ambient",
+    "excerpt": "E-mbeturinat (mbeturinat elektronike) janë pajisje elektronike të përdorura, të vjetëruara ose të dëmtuara që nuk janë më të nevojshme.",
+    "author": "Bujar Dalipi & Esra Bektashi",
+    "date": "Jan 15, 2026",
+    "tags": ["Shkence"]
+  }
+]
