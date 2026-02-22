@@ -1,16 +1,93 @@
-# React + Vite
+# 🌿 Eco Learning School Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website built for **Eco Learning School – North Macedonia**, focused on sustainability, environmental awareness, and educational impact.
 
-Currently, two official plugins are available:
+This project presents the school’s mission, vision, blog articles, events, and community impact in a clean and accessible way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌍 About the Project
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+The goal of this website is to:
 
-## Expanding the ESLint configuration
+- Promote environmental education and sustainable development
+- Share blog posts about ecology, science, and environmental impact
+- Present school activities and events
+- Showcase impact numbers and future vision
+- Provide a modern digital presence for the school
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The platform is designed to be fast, responsive, and easy to expand with new content.
+
+---
+
+## 🛠 Tech Stack
+
+- ⚡ **Vite**
+- ⚛️ **React**
+- 🎨 **Tailwind CSS**
+- 📦 JSON-based local data management
+- 📱 Fully Responsive Design
+
+---
+
+## ✨ Features
+
+- Clean landing page
+- Vision for the Future section
+- Impact & Numbers section with animated counters
+- FAQ section with interactive toggle
+- Blog system (dynamic rendering from JSON)
+- Events structure ready for expansion
+- Reusable components
+- Mobile-first responsive layout
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+├── pages/
+├── data/
+│ ├── blogPosts.json
+│ ├── blogs.json
+│ └── events.json
+├── assets/
+└── App.jsx
+
+---
+
+## 📚 Blog System
+
+Blog content is stored in structured JSON files and rendered dynamically using:
+
+- `dangerouslySetInnerHTML` for formatted content
+- HTML-based content blocks
+- Tailwind styling inside content
+
+This allows easy content updates without modifying components.
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/LiMi0000/eco.git
+cd eco
+```
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+Author
+
+Developed with care and sustainability in mind.
+
+Eco Learning School – North Macedonia
