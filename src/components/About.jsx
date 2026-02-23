@@ -34,10 +34,10 @@ export const About = () => {
         <section id="about" className="py-20 bg-stone-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Reimagining Education</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Edukimi për një të Ardhme të Qëndrueshme</h2>
                     <div className="w-20 h-1.5 bg-green-500 mx-auto rounded-full mb-6"></div>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        At EcoLearn, we believe that the best classroom is the one with no walls. We are dedicated to raising conscious, creative, and compassionate global citizens.
+                        Në Eco Learning School, ne ndërtojmë një kulturë arsimore që ndërthur dijen, përgjegjësinë dhe veprimin. Synimi ynë është të formojmë individë të vetëdijshëm, të aftë për të kontribuar në mbrojtjen e mjedisit dhe zhvillimin e qëndrueshëm të shoqërisë.
                     </p>
                 </div>
 
@@ -51,8 +51,8 @@ export const About = () => {
                             className="relative z-10 w-full h-[500px] object-cover rounded-2xl shadow-xl"
                         />
                         <div className="absolute bottom-8 right-8 z-20 bg-white p-4 rounded-lg shadow-lg max-w-xs hidden sm:block">
-                            <p className="text-green-800 font-bold text-lg">"The earth is what we all have in common."</p>
-                            <p className="text-gray-500 text-sm mt-1">- Wendell Berry</p>
+                            <p className="text-green-800 font-bold text-lg">"Mjedisi nuk është pronë e jona, por përgjegjësi e përbashkët."</p>
+                            {/* <p className="text-gray-500 text-sm mt-1">- Wendell Berry</p> */}
                         </div>
                     </div>
 

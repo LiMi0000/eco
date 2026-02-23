@@ -12,9 +12,9 @@ export const Contact = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Our Community</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-6">Bashkohuni me Komunitetin tonë</h2>
                         <p className="text-green-100 text-lg mb-10 max-w-md">
-                            Whether you're a prospective parent, a community partner, or just curious, we'd love to hear from you.
+                            Jemi të hapur për bashkëpunim me institucione publike dhe private, organizata joqeveritare dhe kompani që ndajnë vizionin tonë për një të ardhme më të gjelbër dhe më të qëndrueshme.
                         </p>
 
                         <div className="space-y-6">
@@ -33,7 +33,7 @@ export const Contact = () => {
                                     <Phone className="h-6 w-6 text-green-300" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-lg">Call Us</h4>
+                                    <h4 className="font-bold text-lg">Telefononi në</h4>
                                     <p className="text-green-100">(555) 123-4567</p>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ export const Contact = () => {
                                     <Mail className="h-6 w-6 text-green-300" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-lg">Email Us</h4>
+                                    <h4 className="font-bold text-lg">Dërgoni një email</h4>
                                     <a href="mailto:ecolearningschool@outlook.com" className="text-green-100">ecolearningschool@outlook.com</a>
                                 </div>
                             </div>

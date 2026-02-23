@@ -11,7 +11,7 @@ export const Footer = () => {
                     {/* Left - Description */}
                     <div>
                         <p className="text-sm text-gray-400 mb-6 max-w-sm text-center">
-                            Empowering the next generation to lead with sustainability, compassion, and knowledge.
+                            Promovojmë edukimin ekologjik dhe zhvillimin e qëndrueshëm për komunitetin tonë.
                         </p>
 
                         <div className="flex justify-center space-x-4">
@@ -37,13 +37,13 @@ export const Footer = () => {
 
                     {/* Right - Quick Links */}
                     <div className="md:text-right">
-                        <h4 className="text-white font-bold mb-4">Quick Links</h4>
+                        <h4 className="text-white font-bold mb-4">Linqe te shpejta</h4>
                         <ul className="space-y-2 text-md">
-                            <li><a href="#" className="hover:text-green-500 transition-colors">Home</a></li>
-                            <li><a href="#about" className="hover:text-green-500 transition-colors">About Us</a></li>
-                            <li><a href="#events" className="hover:text-green-500 transition-colors">Events</a></li>
+                            <li><a href="#" className="hover:text-green-500 transition-colors">Fillimi</a></li>
+                            <li><a href="#about" className="hover:text-green-500 transition-colors">Rreth nesh</a></li>
+                            <li><a href="#events" className="hover:text-green-500 transition-colors">Eventet</a></li>
                             <li><a href="#blog" className="hover:text-green-500 transition-colors">Blog</a></li>
-                            <li><a href="#contact" className="hover:text-green-500 transition-colors">Contact</a></li>
+                            <li><a href="#contact" className="hover:text-green-500 transition-colors">Kontakt</a></li>
                             {/* <li><a href="faq" className="hover:text-green-500 transition-colors">FAQ</a></li> */}
                         </ul>
                     </div>

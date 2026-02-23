@@ -6,10 +6,10 @@ export const Blog = () => {
         <section id="blog" className="py-20 bg-stone-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Latest from the Blog</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Të fundit nga Blogu</h2>
                     <div className="w-20 h-1.5 bg-green-500 mx-auto rounded-full mb-6"></div>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        Stories, updates, and insights from our vibrant learning community.
+                        Publikime informuese dhe përmbajtje edukative që trajtojnë çështje mjedisore, sociale dhe zhvillimore.
                     </p>
                 </div>
 

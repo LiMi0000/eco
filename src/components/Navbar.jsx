@@ -14,10 +14,10 @@ export const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: 'About Us', href: '#about' },
-        { name: 'Events', href: '#events' },
+        { name: 'Reth Nesh', href: '#about' },
+        { name: 'Eventet', href: '#events' },
         { name: 'Blog', href: '#blog' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Kontakt', href: '#contact' },
         // { name: 'FAQ', href: '#faq' },
     ];
 

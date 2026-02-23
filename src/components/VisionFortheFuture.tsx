@@ -46,12 +46,10 @@ export default function Vision() {
                 {/* Header */}
                 <div className="max-w-3xl">
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-                        Vision for the Future
+                        Vizioni për të Ardhmen
                     </h2>
                     <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-                        We’re building a school that prepares students to thrive in a changing world—curious,
-                        capable, and deeply connected to nature. Our next steps focus on measurable impact,
-                        stronger community partnerships, and learning that feels alive.
+                        Ne synojmë të ndërtojmë një shoqëri të ndërgjegjësuar dhe të përgjegjshme ndaj mjedisit, ku edukimi shërben si themel për zhvillim të qëndrueshëm, inovacion dhe bashkëpunim afatgjatë.
                     </p>
                 </div>
 

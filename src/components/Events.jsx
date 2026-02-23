@@ -8,7 +8,7 @@ export const Events = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12">
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Events</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Eventet</h2>
                         <div className="w-20 h-1.5 bg-green-500 rounded-full"></div>
                     </div>
                     {/* <a href="#" className="hidden md:flex items-center text-green-600 font-semibold hover:text-green-800 transition-colors mt-4 md:mt-0">

@@ -16,18 +16,18 @@ export const Hero = () => {
 
             <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mt-16">
                 <span className="inline-block py-1 px-3 rounded-full bg-green-500/20 border border-green-400 text-green-100 text-sm font-semibold mb-6 backdrop-blur-sm">
-                    Educating the Next Generation of Guardians
+                    Edukimi i Gjeneratës së Ardhshme
                 </span>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-6">
-                    Nurturing Minds, <br className="hidden sm:block" />
-                    <span className="text-green-400">Growing Futures</span>
+                    Me edukim, <br className="hidden sm:block" />
+                    <span className="text-green-400">Për një të ardhme të shëndetshme</span>
                 </h1>
                 <p className="mt-4 text-xl text-gray-200 max-w-2xl mx-auto mb-10">
-                    We combine academic excellence with environmental stewardship to prepare students for a sustainable world.
+                    Ne kombinojmë përsosmërinë akademike me kujdesin ndaj mjedisit për të përgatitur studentët për një botë të qëndrueshme.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="#about" className="px-8 py-4 bg-green-600 text-white rounded-full font-bold text-lg hover:bg-green-700 transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2">
-                        Discover Our Mission <ArrowRight className="h-5 w-5" />
+                        Misioni jonë <ArrowRight className="h-5 w-5" />
                     </a>
                     {/* <a href="#contact" className="px-8 py-4 bg-white text-green-800 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
                         Schedule a Visit
