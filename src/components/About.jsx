@@ -6,12 +6,12 @@ export const About = () => {
         {
             icon: <Leaf className="h-6 w-6 text-green-600" />,
             title: "Edukimi ekologjik",
-            description: "Të gjithë edukatorët dhe nxënësit e arsimit fillor dhe të mesëm,vlerësues të jashtëm, shërbime profesionale të pedagogëve dhe psikologëve dhe të tjerë."
+            description: "Për gjithë edukatorët dhe nxënësit e arsimit fillor dhe të mesëm,vlerësues të jashtëm, shërbime profesionale të pedagogëve dhe psikologëve dhe të tjerë."
         },
         {
             icon: <Sun className="h-6 w-6 text-orange-500" />,
             title: "Efikasitetin energjetik",
-            description: `përfaqëson zhvillimin energjetik që plotëson nevojat e së tashmes pa kompromentuar aftësinë e brezave të ardhshëm për të përmbushur nevojat e tyre.`
+            description: `Përfaqëson zhvillimin energjetik që plotëson nevojat e së tashmes pa kompromentuar aftësinë e brezave të ardhshëm për të përmbushur nevojat e tyre.`
         },
         {
             icon: <BookOpen className="h-6 w-6 text-blue-600" />,

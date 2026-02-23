@@ -5,12 +5,12 @@ export default function Vision() {
     const pillars = [
         {
             title: "Misioni",
-            desc: "Të promovojë edukimin ekologjik, efikasitetin energjetik për një (dhe) stabilitet socio-ekonomik, në të gjitha nivelet e shoqërisë, duke rritur ndërgjegjësimin dhe veprimin për mbrojtjen e mjedisit dhe ndërtimin e një të ardhmeje të qëndrueshme.",
+            desc: "Të promovojë edukimin ekologjik, efikasitetin energjetik për një stabilitet socio-ekonomik, në të gjitha nivelet e shoqërisë, duke rritur ndërgjegjësimin dhe veprimin për mbrojtjen e mjedisit dhe ndërtimin e një të ardhmeje të qëndrueshme.",
             items: ["Solar + smart metering", "Efficiency upgrades", "Low-emission transport"],
         },
         {
             title: "Vizioni",
-            desc: "Një shoqëri e informuar dhe aktive që vepron në harmoni me natyrën dhe i përcjell brezave të ardhshëm një mjedis të pastër, të gjelbër dhe të shëndetshëm.",
+            desc: "Një shoqëri e informuar dhe aktive që vepron në harmoni me natyrën dhe i përcjell brezave të ardhshëm një mjedis të pastër, të gjelbër, të qëndrueshëm dhe të shëndetshëm.",
             items: ["Project-based curriculum", "Outdoor classrooms", "Mentorship & teamwork"],
         },
         {

@@ -23,7 +23,7 @@ export const Hero = () => {
                     <span className="text-green-400">Për një të ardhme të shëndetshme</span>
                 </h1>
                 <p className="mt-4 text-xl text-gray-200 max-w-2xl mx-auto mb-10">
-                    Ne kombinojmë përsosmërinë akademike me kujdesin ndaj mjedisit për të përgatitur studentët për një botë të qëndrueshme.
+                    Ne kombinojmë përsosmërinë akademike me kujdesin ndaj mjedisit për të përgatitur nxënësit për një botë të qëndrueshme.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="#about" className="px-8 py-4 bg-green-600 text-white rounded-full font-bold text-lg hover:bg-green-700 transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2">
