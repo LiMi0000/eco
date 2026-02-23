@@ -1,6 +1,8 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import blogPosts from "../data/blogPosts.json";
+import { ArrowLeft } from 'lucide-react';
+
 
 export default function BlogPost() {
     const { id } = useParams();
@@ -20,7 +22,8 @@ export default function BlogPost() {
                         to="/#blog"
                         className="inline-block mt-6 rounded-xl bg-green-600 text-white px-4 py-2 text-sm font-semibold hover:bg-green-700"
                     >
-                        Back to site
+                        <ArrowLeft className="inline mr-2" size={20} />
+                        Mbrapa
                     </Link>
                 </div>
             </div>
@@ -37,7 +40,8 @@ export default function BlogPost() {
                         to="/#blog"
                         className="text-sm font-medium text-green-700 hover:text-green-800"
                     >
-                        ← Back to site
+                        <ArrowLeft className="inline mr-2" size={20} />
+                        Mbrapa
                     </Link>
                 </div>
 
