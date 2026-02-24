@@ -5,5 +5,12 @@
     "events": "Aktivitetet",
     "blog": "Blogu",
     "contact": "Kontakti"
+  },
+  "hero": {
+    "smallText": "Edukimi i Gjeneratës së Ardhshme",
+    "mainTitle": "Me edukim",
+    "secondaryTitle": "Për një të ardhme të shëndetshme",
+    "description": "Ne kombinojmë përsosmërinë akademike me kujdesin ndaj mjedisit për të përgatitur nxënësit për një botë të qëndrueshme.",
+    "cta": "Misioni jonë"
   }
 }
