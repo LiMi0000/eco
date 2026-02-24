@@ -2,7 +2,7 @@
   "nav": {
     "home": "Ballina",
     "about": "Rreth Nesh",
-    "events": "Aktivitetet",
+    "events": "Eventet",
     "blog": "Blogu",
     "contact": "Kontakti"
   },
@@ -25,5 +25,18 @@
     "about1Description3": "Cilat konsiderohen përfitimet kryesore të fillimit dhe të shndërrimit në një eko-shkollë? Përfitimet shëndetësore, social, Ruajtja e burimeve natyrore, Ruajtja e biodiversitetit, Kontributi për një planet më të mirë.",
     "about1Description4": "Një edukim që ofron njohuri dhe ndërgjegjësim për zhvillimin e qëndrueshëm dhe zhvillon aftësitë dhe kompetencat e jetës; qëndrimet dhe vlerat që i duhen një qytetari për të marrë pjesë në veprime dhe është në gjendje të marrë vendime që kontribuojnë drejt zhvillimit të qëndrueshëm.",
     "aboutQoute": "Mjedisi nuk është pronë e jona, por përgjegjësi e përbashkët."
+  },
+  "events": {
+    "eventMainTitle": "Eventet",
+    "eventTag1": "Aktivitet teorik",
+    "eventTag2": "Aktivitet teorik",
+    "eventTag3": "Aktivitet teorik",
+    "event1Title": "Eco-shkollat",
+    "event2Title": "Aktivitetet makinerike dhe ruajtja e ambientit",
+    "event3Title": "Mbeturinat elektronike dhe pasojat e saj në ambient.",
+    "event1Description": "Hapat drejt eko-shkollave. Dëshira që shkolla juaj të zbatojë praktika të qëndrueshme mjedisore? Ndani këtë mendim dhe krijoni Ekipin e Gjelbër. Vendosni rregulla të qarta, por fleksibël të funksionimit për Ekipin e Gjelbër. Hartoni Planin e Veprimit të Gjelbër për shkollën Monitoroni, përshtatni dhe përmirësoni",
+    "event2Description": "Marrja e njohurive të duhura mbi mbrojtjen e mjedisit nga aktivitetet makinerike, duke ndjekur trajnime periodike dhe praktikat e mbrojtjes së mjedisit.",
+    "event3Description": "Ndikimet e pajisjeve elektronike dhe e-mbeturinave, si dhe mënyrat për menaxhimin e tyre në mënyrë të qëndrueshme.",
+    "eventLocation": "Nace Bugjoni-Kumanovë"
   }
 }

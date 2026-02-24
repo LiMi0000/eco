@@ -1,14 +1,17 @@
 import React from 'react';
 import { Calendar, MapPin, ArrowRight } from 'lucide-react';
 import eventsData from '../data/events.json';
+import { useTranslation } from "react-i18next";
+
 
 export const Events = () => {
+    const { t } = useTranslation();
     return (
         <section id="events" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12">
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Eventet</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{t("events.eventMainTitle")}</h2>
                         <div className="w-20 h-1.5 bg-green-500 rounded-full"></div>
                     </div>
                     {/* <a href="#" className="hidden md:flex items-center text-green-600 font-semibold hover:text-green-800 transition-colors mt-4 md:mt-0">
@@ -28,7 +31,7 @@ export const Events = () => {
                             {/* Image */}
                             <div className="relative h-48 overflow-hidden">
                                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-green-800 uppercase tracking-wide z-10">
-                                    {event.category}
+                                    {t(`events.event${event.id}Tag`)}
                                 </div>
 
                                 <img
@@ -46,17 +49,18 @@ export const Events = () => {
                                 </div>
 
                                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
-                                    {event.title}
+                                    {t(`events.event${event.id}Title`)}
+
                                 </h3>
 
                                 <p className="text-gray-600 text-sm mb-6 flex-grow">
-                                    {event.description}
+                                    {t(`events.event${event.id}Description`)}
                                 </p>
 
                                 <div className="border-t border-gray-100 pt-4 flex items-center justify-between text-sm text-gray-500">
                                     <span className="flex items-center">
                                         <MapPin className="h-4 w-4 mr-1 text-gray-400" />
-                                        {event.location}
+                                        {t("events.eventLocation")}
                                     </span>
                                     <span>{event.time}</span>
                                 </div>
