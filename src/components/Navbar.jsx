@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Leaf } from 'lucide-react';
+import LanguageSelector from './LanguageSelector';
+import { useTranslation } from "react-i18next";
 
 export const Navbar = () => {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
@@ -14,11 +17,10 @@ export const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: 'Reth Nesh', href: '#about' },
-        { name: 'Eventet', href: '#events' },
-        { name: 'Blog', href: '#blog' },
-        { name: 'Kontakt', href: '#contact' },
-        // { name: 'FAQ', href: '#faq' },
+        { name: t("nav.about"), href: "#about" },
+        { name: t("nav.events"), href: "#events" },
+        { name: t("nav.blog"), href: "#blog" },
+        { name: t("nav.contact"), href: "#contact" },
     ];
 
     return (
@@ -33,8 +35,12 @@ export const Navbar = () => {
                         <span className={`font-bold text-xl ${scrolled ? 'text-gray-800' : 'text-white lg:text-white'}`}>Eco Learning School</span>
                     </div>
 
+                    <div className="fixed top-11 right-16 md:hidden z-50">
+                        <LanguageSelector />
+                    </div>
+
                     <div className="hidden md:block">
-                        <div className="ml-10 flex items-baseline space-x-8">
+                        <div className="ml-10 flex items-center justify-center space-x-8">
                             {navLinks.map((link) => (
                                 <a
                                     key={link.name}
@@ -47,6 +53,7 @@ export const Navbar = () => {
                                     {link.name}
                                 </a>
                             ))}
+                            <LanguageSelector />
                         </div>
                     </div>
 

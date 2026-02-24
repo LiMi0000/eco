@@ -9,6 +9,8 @@ import { Footer } from './components/Footer'
 import FAQ from './components/FAQ'
 import Vision from './components/VisionFortheFuture'
 import Impact from './components/ImpactNumbers'
+import LanguageSelector from './components/LanguageSelector'
+// import Navbar from './components/Navbar'
 
 const App = () => {
   return (
@@ -23,6 +25,9 @@ const App = () => {
       <Contact />
       {/* <FAQ /> */}
       <Footer />
+      {/* <div className="fixed bottom-5 right-2 md:hidden z-50">
+        <LanguageSelector />
+      </div> */}
     </div>
   )
 }
