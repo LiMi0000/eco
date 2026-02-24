@@ -1,8 +1,11 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import contact from '../assets/contact.svg';
+import { useTranslation } from 'react-i18next';
+
 
 export const Contact = () => {
+    const { t } = useTranslation();
     return (
         <section id="contact" className="py-20 bg-green-800 text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-green-700 rounded-full opacity-50 blur-3xl"></div>
@@ -12,9 +15,9 @@ export const Contact = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold mb-6">Bashkohuni me Komunitetin tonë</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-6">{t("contact.contactTitle")}</h2>
                         <p className="text-green-100 text-lg mb-10 max-w-md">
-                            Jemi të hapur për bashkëpunim me institucione publike dhe private, organizata joqeveritare dhe kompani që ndajnë vizionin tonë për një të ardhme më të gjelbër dhe më të qëndrueshme.
+                            {t("contact.contactDescription")}
                         </p>
 
                         <div className="space-y-6">
@@ -24,7 +27,11 @@ export const Contact = () => {
                                 </div>
                                 <div>
                                     {/* <h4 className="font-bold text-lg">Visit Us</h4> */}
-                                    <p className="text-green-100">1300 Kumanovo, <br /> North Macedonia</p>
+                                    {/* <p className="text-green-100">{t("contact.contactLocation")}</p> */}
+                                    <p
+                                        className="text-green-100"
+                                        dangerouslySetInnerHTML={{ __html: t("contact.contactLocation") }}
+                                    />
                                 </div>
                             </div>
 
@@ -33,7 +40,7 @@ export const Contact = () => {
                                     <Phone className="h-6 w-6 text-green-300" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-lg">Telefononi në</h4>
+                                    <h4 className="font-bold text-lg">{t("contact.contactNumber")}</h4>
                                     <p className="text-green-100">(555) 123-4567</p>
                                 </div>
                             </div>
@@ -43,7 +50,7 @@ export const Contact = () => {
                                     <Mail className="h-6 w-6 text-green-300" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-lg">Dërgoni një email</h4>
+                                    <h4 className="font-bold text-lg">{t("contact.contactEmail")}</h4>
                                     <a href="mailto:ecolearningschool@outlook.com" className="text-green-100">ecolearningschool@outlook.com</a>
                                 </div>
                             </div>

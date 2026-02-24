@@ -38,5 +38,12 @@
     "event2Description": "Marrja e njohurive të duhura mbi mbrojtjen e mjedisit nga aktivitetet makinerike, duke ndjekur trajnime periodike dhe praktikat e mbrojtjes së mjedisit.",
     "event3Description": "Ndikimet e pajisjeve elektronike dhe e-mbeturinave, si dhe mënyrat për menaxhimin e tyre në mënyrë të qëndrueshme.",
     "eventLocation": "Nace Bugjoni-Kumanovë"
+  },
+  "contact": {
+    "contactTitle": "Bashkohuni me Komunitetin tonë",
+    "contactDescription": "Jemi të hapur për bashkëpunim me institucione publike dhe private, organizata joqeveritare dhe kompani që ndajnë vizionin tonë për një të ardhme më të gjelbër dhe më të qëndrueshme.",
+    "contactLocation": "1300 Kumanovo, <br /> North Macedonia",
+    "contactNumber": "Telefononi në",
+    "contactEmail": "Dërgoni një email"
   }
 }
