@@ -1,32 +1,31 @@
 import React from 'react';
 import { Leaf, Sun, BookOpen, Users } from 'lucide-react';
+import { useTranslation } from "react-i18next";
+
 
 export const About = () => {
+    const { t } = useTranslation();
+
     const features = [
         {
             icon: <Leaf className="h-6 w-6 text-green-600" />,
-            title: "Edukimi ekologjik",
-            description: "Për gjithë edukatorët dhe nxënësit e arsimit fillor dhe të mesëm,vlerësues të jashtëm, shërbime profesionale të pedagogëve dhe psikologëve dhe të tjerë."
+            title: t("about.about1Title"),
+            description: t("about.about1Description1")
         },
         {
             icon: <Sun className="h-6 w-6 text-orange-500" />,
-            title: "Efikasitetin energjetik",
-            description: `Përfaqëson zhvillimin energjetik që plotëson nevojat e së tashmes pa kompromentuar aftësinë e brezave të ardhshëm për të përmbushur nevojat e tyre.`
+            title: t("about.about2Title"),
+            description: t("about.about1Description2")
         },
         {
             icon: <BookOpen className="h-6 w-6 text-blue-600" />,
-            title: "Stabilitet socio-ekonomik",
-            description: `Cilat konsiderohen përfitimet kryesore të fillimit dhe të shndërrimit në një eko-shkollë?
-            Përfitimet shëndetësore, social,
-            Ruajtja e burimeve natyrore,
-            Ruajtja e biodiversitetit,
-            Kontributi për një planet më të mirë.
-            `
+            title: t("about.about3Title"),
+            description: t("about.about1Description3")
         },
         {
             icon: <Users className="h-6 w-6 text-purple-600" />,
-            title: "Zhvillim i qëndrueshëm",
-            description: "Një edukim që ofron njohuri dhe ndërgjegjësim për zhvillimin e qëndrueshëm dhe zhvillon aftësitë dhe kompetencat e jetës; qëndrimet dhe vlerat që i duhen një qytetari për të marrë pjesë në veprime dhe është në gjendje të marrë vendime që kontribuojnë drejt zhvillimit të qëndrueshëm."
+            title: t("about.about4Title"),
+            description: t("about.about1Description4")
         }
     ];
 
@@ -34,10 +33,10 @@ export const About = () => {
         <section id="about" className="py-20 bg-stone-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Edukimi për një të Ardhme të Qëndrueshme</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{t("about.aboutTitle")}</h2>
                     <div className="w-20 h-1.5 bg-green-500 mx-auto rounded-full mb-6"></div>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Në Eco Learning School, ne ndërtojmë një kulturë arsimore që ndërthur dijen, përgjegjësinë dhe veprimin. Synimi ynë është të formojmë individë të vetëdijshëm, të aftë për të kontribuar në mbrojtjen e mjedisit dhe zhvillimin e qëndrueshëm të shoqërisë.
+                        {t("about.aboutDescription")}
                     </p>
                 </div>
 
@@ -51,7 +50,7 @@ export const About = () => {
                             className="relative z-10 w-full h-[500px] object-cover rounded-2xl shadow-xl"
                         />
                         <div className="absolute bottom-8 right-8 z-20 bg-white p-4 rounded-lg shadow-lg max-w-xs hidden sm:block">
-                            <p className="text-green-800 font-bold text-lg">"Mjedisi nuk është pronë e jona, por përgjegjësi e përbashkët."</p>
+                            <p className="text-green-800 font-bold text-lg">"{t("about.aboutQoute")}"</p>
                             {/* <p className="text-gray-500 text-sm mt-1">- Wendell Berry</p> */}
                         </div>
                     </div>
