@@ -39,38 +39,46 @@ export default function LanguageSelector() {
     }, []);
 
     return (
-        <div ref={containerRef} className="relative z-50 flex justify-end mt-4">
-            <div className="relative w-10 h-auto">
-                <div className="absolute -top-8 right-1 flex flex-col items-center">
+        <div ref={containerRef} className="relative z-50">
+            {/* Main button */}
+            <button
+                onClick={() => setOpen(!open)}
+                className="w-10 h-10 rounded-full overflow-hidden shadow-md bg-white"
+                type="button"
+                aria-label="Open language selector"
+            >
+                <Flag code={languages[lang].country} className="w-full h-full object-cover" />
+            </button>
+
+            {/* Other flags: UP on mobile, DOWN on desktop */}
+            <div
+                className={`
+      absolute right-0 flex flex-col items-center space-y-2
+      bottom-full mb-2
+      md:bottom-auto md:top-full md:mt-2 md:mb-0
+      ${open ? "pointer-events-auto" : "pointer-events-none"}
+    `}
+            >
+                {otherLanguages.map(([code, { country }], index) => (
                     <button
-                        onClick={() => setOpen((v) => !v)}
-                        className="w-10 h-10 rounded-full overflow-hidden shadow-md bg-white z-20 ring-1 ring-black/10 hover:ring-green-500 transition"
-                        aria-label="Change language"
+                        key={code}
+                        onClick={() => handleChange(code)}
+                        className={`
+          w-10 h-10 rounded-full overflow-hidden shadow-sm bg-white
+          ring-1 ring-black/10 hover:ring-green-500
+          transform transition-all duration-300 ease-out
+          ${open
+                                ? "opacity-100 translate-y-0"
+                                : "opacity-0 translate-y-2 md:-translate-y-2"
+                            }
+        `}
+                        style={{ transitionDelay: `${(index + 1) * 75}ms` }}
+                        aria-label={`Switch to ${code.toUpperCase()}`}
                         type="button"
                     >
-                        <Flag code={languages[lang].country} className="w-full h-full object-cover" />
+                        <Flag code={country} className="w-full h-full object-cover" />
                     </button>
-
-                    <div className="flex flex-col items-center mt-2 space-y-2">
-                        {otherLanguages.map(([code, { country }], index) => (
-                            <button
-                                key={code}
-                                onClick={() => handleChange(code)}
-                                className={`
-                  w-10 h-10 rounded-full overflow-hidden shadow-sm bg-white
-                  ring-1 ring-black/10 hover:ring-green-500 transition
-                  transform transition-all duration-300 ease-out
-                  ${open ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"}
-                `}
-                                style={{ transitionDelay: `${(index + 1) * 75}ms` }}
-                                aria-label={`Switch to ${code.toUpperCase()}`}
-                                type="button"
-                            >
-                                <Flag code={country} className="w-full h-full object-cover" />
-                            </button>
-                        ))}
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );

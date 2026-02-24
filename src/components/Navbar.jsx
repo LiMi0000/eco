@@ -35,9 +35,9 @@ export const Navbar = () => {
                         <span className={`font-bold text-xl ${scrolled ? 'text-gray-800' : 'text-white lg:text-white'}`}>Eco Learning School</span>
                     </div>
 
-                    <div className="fixed top-11 right-16 md:hidden z-50">
+                    {/* <div className="fixed top-11 right-16 md:hidden z-50">
                         <LanguageSelector />
-                    </div>
+                    </div> */}
 
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-center justify-center space-x-8">

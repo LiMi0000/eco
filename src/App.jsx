@@ -25,9 +25,9 @@ const App = () => {
       <Contact />
       {/* <FAQ /> */}
       <Footer />
-      {/* <div className="fixed bottom-5 right-2 md:hidden z-50">
+      <div className="fixed bottom-2 right-3 md:hidden z-50">
         <LanguageSelector />
-      </div> */}
+      </div>
     </div>
   )
 }
