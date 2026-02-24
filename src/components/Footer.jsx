@@ -1,7 +1,10 @@
 import React from 'react';
 import { Leaf, Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { useTranslation } from "react-i18next";
+
 
 export const Footer = () => {
+    const { t } = useTranslation();
     return (
         <footer className="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,7 +14,7 @@ export const Footer = () => {
                     {/* Left - Description */}
                     <div>
                         <p className="text-sm text-gray-400 mb-6 max-w-sm text-center">
-                            Promovojmë edukimin ekologjik dhe zhvillimin e qëndrueshëm për komunitetin tonë.
+                            {t("footer.footerDescription")}
                         </p>
 
                         <div className="flex justify-center space-x-4">
@@ -37,13 +40,13 @@ export const Footer = () => {
 
                     {/* Right - Quick Links */}
                     <div className="md:text-right">
-                        <h4 className="text-white font-bold mb-4">Linqe te shpejta</h4>
+                        <h4 className="text-white font-bold mb-4">{t("footer.quickLinks")}</h4>
                         <ul className="space-y-2 text-md">
-                            <li><a href="#" className="hover:text-green-500 transition-colors">Fillimi</a></li>
-                            <li><a href="#about" className="hover:text-green-500 transition-colors">Rreth nesh</a></li>
-                            <li><a href="#events" className="hover:text-green-500 transition-colors">Eventet</a></li>
-                            <li><a href="#blog" className="hover:text-green-500 transition-colors">Blog</a></li>
-                            <li><a href="#contact" className="hover:text-green-500 transition-colors">Kontakt</a></li>
+                            <li><a href="#" className="hover:text-green-500 transition-colors">{t("nav.home")}</a></li>
+                            <li><a href="#about" className="hover:text-green-500 transition-colors">{t("nav.about")}</a></li>
+                            <li><a href="#events" className="hover:text-green-500 transition-colors">{t("nav.events")}</a></li>
+                            <li><a href="#blog" className="hover:text-green-500 transition-colors">{t("nav.blog")}</a></li>
+                            <li><a href="#contact" className="hover:text-green-500 transition-colors">{t("nav.contact")}</a></li>
                             {/* <li><a href="faq" className="hover:text-green-500 transition-colors">FAQ</a></li> */}
                         </ul>
                     </div>

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "Ballina",
+    "home": "Fillimi",
     "about": "Rreth Nesh",
     "events": "Eventet",
     "blog": "Blogu",
@@ -45,5 +45,9 @@
     "contactLocation": "1300 Kumanovo, <br /> North Macedonia",
     "contactNumber": "Telefononi në",
     "contactEmail": "Dërgoni një email"
+  },
+  "footer": {
+    "quickLinks": "Linqe te shpejta",
+    "footerDescription": "Promovojmë edukimin ekologjik dhe zhvillimin e qëndrueshëm për komunitetin tonë."
   }
 }

@@ -11,7 +11,7 @@ export default function LanguageSelector() {
         () => ({
             sq: { label: "SQ", country: "AL" }, // Albania
             mk: { label: "MK", country: "MK" }, // North Macedonia
-            en: { label: "EN", country: "GB" }, // or "US"
+            // en: { label: "EN", country: "GB" }, // or "US"
         }),
         []
     );
