@@ -4,7 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import sq from "./locales/sq.json";
 import mk from "./locales/mk.json";
-import en from "./locales/en.json";
+// import en from "./locales/en.json";
 
 i18n
   .use(LanguageDetector)
@@ -13,7 +13,7 @@ i18n
     resources: {
       sq: { translation: sq },
       mk: { translation: mk },
-      en: { translation: en },
+      // en: { translation: en },
     },
     fallbackLng: "sq",
     interpolation: {
