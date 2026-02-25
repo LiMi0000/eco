@@ -1,15 +1,17 @@
 import React from 'react';
 import blogs from "../data/blogs";
+import { useTranslation } from "react-i18next";
 
 export const Blog = () => {
+    const { t } = useTranslation();
     return (
         <section id="blog" className="py-20 bg-stone-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Të fundit nga Blogu</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{t("blogs.blogMainTitle")}</h2>
                     <div className="w-20 h-1.5 bg-green-500 mx-auto rounded-full mb-6"></div>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        Publikime informuese dhe përmbajtje edukative që trajtojnë çështje mjedisore, sociale dhe zhvillimore.
+                        {t("blogs.blogDescription")}
                     </p>
                 </div>
 
@@ -28,19 +30,19 @@ export const Blog = () => {
                                         key={tag}
                                         className="text-xs font-bold text-green-700 bg-green-100 px-2 py-1 rounded-md uppercase tracking-wider"
                                     >
-                                        {tag}
+                                        {t(`blogs.blogTag${post.tags.indexOf(tag) + 1}`)}
                                     </span>
                                 ))}
                             </div>
 
                             <h3 className="text-2xl font-bold text-gray-900 mb-3 hover:text-green-600 transition-colors">
-                                {post.title}
+                                {t(`blogs.blog${post.id}Title`)}
                             </h3>
 
-                            <p className="text-gray-600 mb-6">{post.excerpt}</p>
+                            <p className="text-gray-600 mb-6">{t(`blogs.blog${post.id}Description`)}</p>
 
                             <div className="flex justify-between items-center text-sm text-gray-500 pt-4 border-t border-gray-100">
-                                <span className="font-medium text-gray-900">{post.author}</span>
+                                <span className="font-medium text-gray-900">{t(`blogs.blog${post.id}Author`)}</span>
                                 <span>{post.date}</span>
                             </div>
                         </a>

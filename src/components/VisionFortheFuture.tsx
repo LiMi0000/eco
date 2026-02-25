@@ -1,38 +1,33 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Vision() {
+    const { t } = useTranslation();
     const pillars = [
         {
-            title: "Misioni",
-            desc: "Të promovojë edukimin ekologjik, efikasitetin energjetik për një stabilitet socio-ekonomik, në të gjitha nivelet e shoqërisë, duke rritur ndërgjegjësimin dhe veprimin për mbrojtjen e mjedisit dhe ndërtimin e një të ardhmeje të qëndrueshme.",
+            title: t("vision.vision1Title"),
+            desc: t("vision.vision1Description"),
             items: ["Solar + smart metering", "Efficiency upgrades", "Low-emission transport"],
         },
         {
-            title: "Vizioni",
-            desc: "Një shoqëri e informuar dhe aktive që vepron në harmoni me natyrën dhe i përcjell brezave të ardhshëm një mjedis të pastër, të gjelbër, të qëndrueshëm dhe të shëndetshëm.",
+            title: t("vision.vision2Title"),
+            desc: t("vision.vision2Description"),
             items: ["Project-based curriculum", "Outdoor classrooms", "Mentorship & teamwork"],
         },
         {
-            title: "Qëllimet",
-            desc: `
-            Të ofrojë edukim ekologjik si dhe kujdes energjetik për të gjitha grupmoshat, përmes seminareve, punëtorive, aktiviteteve praktike dhe materialeve arsimore.
-            Të ndërgjegjësojë popullatën mbi rëndësinë e ruajtjes së natyrës dhe ndikimin e veprimeve njerëzore në mjedis.
-            `,
+            title: t("vision.vision3Title"),
+            desc: t("vision.vision3Description"),
             items: ["Tree planting program", "Pollinator zones", "Habitat mapping"],
         },
         {
-            title: "Veprimtaria",
-            desc: `
-            Organizim të trajnimeve, seminareve dhe punëtorive;
-        	Aksione ekologjike (pastrim, mbjellje pemësh, etj.);
-        	Publikim të materialeve edukative;
-            Hulumtime dhe projekte në fushën e ekologjisë dhe efikasitetit energjetik;
-        	Pjesëmarrje dhe organizim të fushatave ndërgjegjësuese;
-            `,
+            title: t("vision.vision4Title"),
+            desc: t("vision.vision4Description"),
             items: ["Monthly workshops", "Community cleanups", "Local partnerships"],
         },
     ];
+
+
 
     const milestones = [
         { year: "2026", text: "Launch student eco-labs and expand the community garden." },
@@ -46,10 +41,10 @@ export default function Vision() {
                 {/* Header */}
                 <div className="max-w-3xl">
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-                        Vizioni për të Ardhmen
+                        {t("vision.visionTitle")}
                     </h2>
                     <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-                        Ne synojmë të ndërtojmë një shoqëri të ndërgjegjësuar dhe të përgjegjshme ndaj mjedisit, ku edukimi shërben si themel për zhvillim të qëndrueshëm, inovacion dhe bashkëpunim afatgjatë.
+                        {t("vision.visionDescription")}
                     </p>
                 </div>
 

@@ -39,6 +39,34 @@
     "event3Description": "Ndikimet e pajisjeve elektronike dhe e-mbeturinave, si dhe mënyrat për menaxhimin e tyre në mënyrë të qëndrueshme.",
     "eventLocation": "Nace Bugjoni-Kumanovë"
   },
+  "blogs": {
+    "blogMainTitle": "Të fundit nga Blogu",
+    "blogDescription": "Publikime informuese dhe përmbajtje edukative që trajtojnë çështje mjedisore, sociale dhe zhvillimore.",
+    "blogTag1": "Eko Shkollat",
+    "blogTag2": "Emetimet në ajër",
+    "blogTag3": "Shkence",
+    "blog1Title": "Eko Shkollat",
+    "blog2Title": "Aktivitetet makinerike dhe ruajtja e ambientit",
+    "blog3Title": "Mbeturinat elektronike dhe pasojat e saj në ambient",
+    "blog1Description": "Hapat drejt eko-shkollave. Dëshira që shkolla juaj të zbatojë praktika të qëndrueshme mjedisore? Ndani këtë mendim dhe krijoni Ekipin e Gjelbër. Vendosni rregulla të qarta, por fleksibël të funksionimit për Ekipin e Gjelbër. Hartoni Planin e Veprimit të Gjelbër për shkollën Monitoroni, përshtatni dhe përmirësoni",
+    "blog2Description": "Gjatë procesit të prerjes së metaleve, retifikimit dhe ose formimit (duke përfshirë farkëtim, nxjerrje teli, shtypje dhe të tjera) ndodh avullimi i lëngjeve për prerje (në proceset ku nxehen fluidet për prerje lubrifikim ftohje (p.sh. Nxjerrja e telit)).",
+    "blog3Description": "E-mbeturinat (mbeturinat elektronike) janë pajisje elektronike të përdorura, të vjetëruara ose të dëmtuara që nuk janë më të nevojshme.",
+    "blog1Author": "Halim Misini",
+    "blog2Author": "Halim Misini",
+    "blog3Author": "Bujar Dalipi"
+  },
+  "vision": {
+    "visionTitle": "Vizioni për të Ardhmen",
+    "visionDescription": "Ne synojmë të ndërtojmë një shoqëri të ndërgjegjësuar dhe të përgjegjshme ndaj mjedisit, ku edukimi shërben si themel për zhvillim të qëndrueshëm, inovacion dhe bashkëpunim afatgjatë.",
+    "vision1Title": "Misioni",
+    "vision2Title": "Vizioni",
+    "vision3Title": "Qëllimet",
+    "vision4Title": "Veprimtaria",
+    "vision1Description": "Të promovojë edukimin ekologjik, efikasitetin energjetik për një stabilitet socio-ekonomik, në të gjitha nivelet e shoqërisë, duke rritur ndërgjegjësimin dhe veprimin për mbrojtjen e mjedisit dhe ndërtimin e një të ardhmeje të qëndrueshme.",
+    "vision2Description": "Një shoqëri e informuar dhe aktive që vepron në harmoni me natyrën dhe i përcjell brezave të ardhshëm një mjedis të pastër, të gjelbër, të qëndrueshëm dhe të shëndetshëm.",
+    "vision3Description": "Të ofrojë edukim ekologjik si dhe kujdes energjetik për të gjitha grupmoshat, përmes seminareve, punëtorive, aktiviteteve praktike dhe materialeve arsimore. Të ndërgjegjësojë popullatën mbi rëndësinë e ruajtjes së natyrës dhe ndikimin e veprimeve njerëzore në mjedis.",
+    "vision4Description": "Organizim të trajnimeve, seminareve dhe punëtorive; Aksione ekologjike (pastrim, mbjellje pemësh, etj.); Publikim të materialeve edukative; Hulumtime dhe projekte në fushën e ekologjisë dhe efikasitetit energjetik; Pjesëmarrje dhe organizim të fushatave ndërgjegjësuese;"
+  },
   "contact": {
     "contactTitle": "Bashkohuni me Komunitetin tonë",
     "contactDescription": "Jemi të hapur për bashkëpunim me institucione publike dhe private, organizata joqeveritare dhe kompani që ndajnë vizionin tonë për një të ardhme më të gjelbër dhe më të qëndrueshme.",
