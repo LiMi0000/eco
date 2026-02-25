@@ -5,7 +5,7 @@
     "excerpt": "Hapat drejt eko-shkollave\nDëshira që shkolla juaj të zbatojë praktika të qëndrueshme mjedisore?\nNdani këtë mendim dhe krijoni \"Ekipin e Gjelbër\".\nVendosni rregulla të qarta, por fleksibël të funksionimit për \"Ekipin e Gjelbër\".\nHartoni Planin e Veprimit të Gjelbër për shkollën\nMonitoroni, përshtatni dhe përmirësoni",
     "author": "Halim Misini",
     "date": "Feb 10, 2026",
-    "tags": ["Eko-shkollat"]
+    "tagKeys": ["ecoSchools"]
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "excerpt": "Gjatë procesit të prerjes së metaleve, retifikimit dhe ose formimit (duke përfshirë farkëtim, nxjerrje teli, shtypje dhe të tjera) ndodh avullimi i lëngjeve për prerje ( në proceset ku nxehen fluidet për prerje lubrifikim ftohje (p.sh. Nxjerrja e telit)).",
     "author": "Halim Misini",
     "date": "13.02.2026",
-    "tags": ["Emetimet në ajër"]
+    "tagKeys": ["airEmissions"]
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "excerpt": "E-mbeturinat (mbeturinat elektronike) janë pajisje elektronike të përdorura, të vjetëruara ose të dëmtuara që nuk janë më të nevojshme.",
     "author": "Bujar Dalipi",
     "date": "Jan 15, 2026",
-    "tags": ["Shkence"]
+    "tagKeys": ["science"]
   }
 ]

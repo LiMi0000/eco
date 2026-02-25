@@ -25,12 +25,12 @@ export const Blog = () => {
                             className="block bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border-t-4 border-green-500 hover:-translate-y-1"
                         >
                             <div className="flex gap-2 mb-4">
-                                {post.tags.map(tag => (
+                                {post.tagKeys?.map((tagKey) => (
                                     <span
-                                        key={tag}
+                                        key={tagKey}
                                         className="text-xs font-bold text-green-700 bg-green-100 px-2 py-1 rounded-md uppercase tracking-wider"
                                     >
-                                        {t(`blogs.blogTag${post.tags.indexOf(tag) + 1}`)}
+                                        {t(`blogs.tags.${tagKey}`, { defaultValue: tagKey })}
                                     </span>
                                 ))}
                             </div>

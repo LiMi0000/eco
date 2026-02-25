@@ -28,9 +28,11 @@
   },
   "events": {
     "eventMainTitle": "Eventet",
-    "eventTag1": "Aktivitet teorik",
-    "eventTag2": "Aktivitet teorik",
-    "eventTag3": "Aktivitet teorik",
+    "tags": {
+      "theoretical": "Aktivitet teorik",
+      "workshop": "Aktivitet teorik",
+      "environment": "Aktivitet teorik"
+    },
     "event1Title": "Eco-shkollat",
     "event2Title": "Aktivitetet makinerike dhe ruajtja e ambientit",
     "event3Title": "Mbeturinat elektronike dhe pasojat e saj në ambient.",
@@ -42,15 +44,21 @@
   "blogs": {
     "blogMainTitle": "Të fundit nga Blogu",
     "blogDescription": "Publikime informuese dhe përmbajtje edukative që trajtojnë çështje mjedisore, sociale dhe zhvillimore.",
-    "blogTag1": "Eko Shkollat",
-    "blogTag2": "Emetimet në ajër",
-    "blogTag3": "Shkence",
+
+    "tags": {
+      "ecoSchools": "Eko Shkollat",
+      "airEmissions": "Emetimet në ajër",
+      "science": "Shkencë"
+    },
+
     "blog1Title": "Eko Shkollat",
     "blog2Title": "Aktivitetet makinerike dhe ruajtja e ambientit",
     "blog3Title": "Mbeturinat elektronike dhe pasojat e saj në ambient",
-    "blog1Description": "Hapat drejt eko-shkollave. Dëshira që shkolla juaj të zbatojë praktika të qëndrueshme mjedisore? Ndani këtë mendim dhe krijoni Ekipin e Gjelbër. Vendosni rregulla të qarta, por fleksibël të funksionimit për Ekipin e Gjelbër. Hartoni Planin e Veprimit të Gjelbër për shkollën Monitoroni, përshtatni dhe përmirësoni",
-    "blog2Description": "Gjatë procesit të prerjes së metaleve, retifikimit dhe ose formimit (duke përfshirë farkëtim, nxjerrje teli, shtypje dhe të tjera) ndodh avullimi i lëngjeve për prerje (në proceset ku nxehen fluidet për prerje lubrifikim ftohje (p.sh. Nxjerrja e telit)).",
+
+    "blog1Description": "Hapat drejt eko-shkollave. Dëshira që shkolla juaj të zbatojë praktika të qëndrueshme mjedisore? Ndani këtë mendim dhe krijoni Ekipin e Gjelbër. Vendosni rregulla të qarta, por fleksibël të funksionimit për Ekipin e Gjelbër. Hartoni Planin e Veprimit të Gjelbër për shkollën. Monitoroni, përshtatni dhe përmirësoni.",
+    "blog2Description": "Gjatë procesit të prerjes së metaleve, retifikimit dhe ose formimit (duke përfshirë farkëtim, nxjerrje teli, shtypje dhe të tjera) ndodh avullimi i lëngjeve për prerje (në proceset ku nxehen fluidet për prerje, lubrifikim dhe ftohje (p.sh. nxjerrja e telit)).",
     "blog3Description": "E-mbeturinat (mbeturinat elektronike) janë pajisje elektronike të përdorura, të vjetëruara ose të dëmtuara që nuk janë më të nevojshme.",
+
     "blog1Author": "Halim Misini",
     "blog2Author": "Halim Misini",
     "blog3Author": "Bujar Dalipi"

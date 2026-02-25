@@ -31,7 +31,17 @@ export const Events = () => {
                             {/* Image */}
                             <div className="relative h-48 overflow-hidden">
                                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-green-800 uppercase tracking-wide z-10">
-                                    {t(`events.event${event.id}Tag`)}
+                                    {/* {t(`events.event${event.id}Tag`)} */}
+                                    {event.tagKeys?.map((tagKey) => (
+                                        <span
+                                            key={tagKey}
+                                            className="text-xs font-bold text-green-700 px-2 py-1 rounded-md uppercase tracking-wider"
+                                        >
+                                            {t(`events.tags.${tagKey}`, { defaultValue: tagKey })}
+
+
+                                        </span>
+                                    ))}
                                 </div>
 
                                 <img
