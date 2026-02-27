@@ -85,5 +85,23 @@
   "footer": {
     "quickLinks": "Брзи линкови",
     "footerDescription": "Ние промовираме еколошко образование и одржлив развој за нашата заедница."
+  },
+  "blogPost1": {
+    "blog1Title": "",
+    "blog1Description": "",
+    "blog1Author": "",
+    "blog1Content": ""
+  },
+  "blogPost2": {
+    "blog2Title": "",
+    "blog2Description": "",
+    "blog2Author": "",
+    "blog2Content": ""
+  },
+  "blogPost3": {
+    "blog3Title": "",
+    "blog3Description": "",
+    "blog3Author": "",
+    "blog3Content": ""
   }
 }
