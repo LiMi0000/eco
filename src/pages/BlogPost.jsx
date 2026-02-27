@@ -1,101 +1,99 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import blogPosts from "../data/blogPosts.json";
-import { ArrowLeft } from 'lucide-react';
-
+import { ArrowLeft } from "lucide-react";
+import LanguageSelector from "../components/LanguageSelector";
 
 export default function BlogPost() {
-    const { id } = useParams();
+  const { id } = useParams();
 
-    const postId = Number(id);
-    const post = blogPosts.find((p) => p.id === postId);
+  const postId = Number(id);
+  const post = blogPosts.find((p) => p.id === postId);
 
-    if (!post) {
-        return (
-            <div className="min-h-screen bg-stone-100 flex items-center justify-center px-4">
-                <div className="max-w-lg w-full bg-white rounded-2xl shadow-sm p-8 border border-stone-200">
-                    <h1 className="text-2xl font-bold text-gray-900">Post not found</h1>
-                    <p className="text-gray-600 mt-2">
-                        The blog post you’re looking for doesn’t exist.
-                    </p>
-                    <Link
-                        to="/#blog"
-                        className="inline-block mt-6 rounded-xl bg-green-600 text-white px-4 py-2 text-sm font-semibold hover:bg-green-700"
-                    >
-                        <ArrowLeft className="inline mr-2" size={20} />
-                        Mbrapa
-                    </Link>
-                </div>
-            </div>
-        );
-    }
-
+  if (!post) {
     return (
-        <div className="min-h-screen bg-white">
-            <div className="max-w-3xl mx-auto px-6 py-20">
+      <div className="min-h-screen bg-stone-100 flex items-center justify-center px-4">
+        <div className="max-w-lg w-full bg-white rounded-2xl shadow-sm p-8 border border-stone-200">
+          <h1 className="text-2xl font-bold text-gray-900">Post not found</h1>
+          <p className="text-gray-600 mt-2">
+            The blog post you’re looking for doesn’t exist.
+          </p>
+          <Link
+            to="/#blog"
+            className="inline-block mt-6 rounded-xl bg-green-600 text-white px-4 py-2 text-sm font-semibold hover:bg-green-700"
+          >
+            <ArrowLeft className="inline mr-2" size={20} />
+            Mbrapa
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
-                {/* Go back button */}
-                <div className="mb-12">
-                    <Link
-                        to="/#blog"
-                        className="text-sm font-medium text-green-700 hover:text-green-800"
-                    >
-                        <ArrowLeft className="inline mr-2" size={20} />
-                        Mbrapa
-                    </Link>
-                </div>
+  return (
+    <div className="min-h-screen bg-white">
+      <div className="max-w-3xl mx-auto px-6 py-20">
+        {/* Go back button */}
+        <div className="flex items-center justify-between py-4">
+          <Link
+            to="/#blog"
+            className="text-sm font-medium text-green-700 hover:text-green-800"
+          >
+            <ArrowLeft className="inline mr-2" size={20} />
+            Mbrapa
+          </Link>
 
-                <article>
+          {/* Desktop: in the top row | Mobile: fixed bottom-right */}
+          <div className="fixed bottom-4 right-4 md:static md:bottom-auto md:right-auto z-50">
+            <LanguageSelector />
+          </div>
+        </div>
 
-                    {/* Tags */}
-                    <div className="flex flex-wrap gap-2 mb-6">
-                        {post.tags.map((tag) => (
-                            <span
-                                key={tag}
-                                className="text-xs font-semibold text-green-700 bg-green-100 px-3 py-1 rounded-full uppercase tracking-wider"
-                            >
-                                {tag}
-                            </span>
-                        ))}
-                    </div>
+        <article>
+          {/* Tags */}
+          <div className="flex flex-wrap gap-2 mb-6">
+            {post.tags.map((tag) => (
+              <span
+                key={tag}
+                className="text-xs font-semibold text-green-700 bg-green-100 px-3 py-1 rounded-full uppercase tracking-wider"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
 
-                    {/* Title */}
-                    <h1 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
-                        {post.title}
-                    </h1>
+          {/* Title */}
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
+            {post.title}
+          </h1>
 
-                    {/* Author + Date */}
-                    <div className="mt-6 text-gray-500 text-sm">
-                        <span className="font-medium text-gray-900">{post.author}</span>
-                        <span className="mx-2">•</span>
-                        <span>{post.date}</span>
-                    </div>
+          {/* Author + Date */}
+          <div className="mt-6 text-gray-500 text-sm">
+            <span className="font-medium text-gray-900">{post.author}</span>
+            <span className="mx-2">•</span>
+            <span>{post.date}</span>
+          </div>
 
-                    {/* Divider */}
-                    <div className="w-full h-px bg-gray-200 my-10"></div>
+          {/* Divider */}
+          <div className="w-full h-px bg-gray-200 my-10"></div>
 
-                    {/* Intro / Excerpt */}
-                    <p className="text-xl text-gray-700 leading-relaxed mb-10">
-                        {post.excerpt}
-                    </p>
+          {/* Intro / Excerpt */}
+          <p className="text-xl text-gray-700 leading-relaxed mb-10">
+            {post.excerpt}
+          </p>
 
-                    {/* Content */}
-                    {/* <div className="space-y-6 text-gray-700 leading-8 text-lg">
+          {/* Content */}
+          {/* <div className="space-y-6 text-gray-700 leading-8 text-lg">
                         {post.content.map((p, idx) => (
                             <p key={idx}>{p}</p>
                         ))}
                     </div> */}
-                    <div
-                        dangerouslySetInnerHTML={{ __html: post.content }}
-                    />
-
-                </article>
-            </div>
-        </div>
-    );
+          <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        </article>
+      </div>
+    </div>
+  );
 }
-
-
 
 //  const posts = useMemo(
 //         () => [
@@ -141,13 +139,11 @@ export default function BlogPost() {
 
 //                   <h2 class='font-bold text-lg'>REZULTATET</h2>
 
-
 //                   <ol class='list-decimal pl-6 space-y-2'>
 //                     <li>Pjesëmarrësit janë në gjendje të lidhin temat mjedisore me qëllimet e zhvillimit të qëndrueshëm</li>
 //                     <li>Pjesëmarrësit kuptojnë se si t'i përkthejnë qëllimet e qëndrueshme në veprime/iniciativa të gjelbra</li>
 //                     <li>Pjesëmarrësit praktikojnë të artikulojnë përfitimet e Eko-shkollave</li>
 //                   </ol>
-
 
 //                 `,
 //             },
