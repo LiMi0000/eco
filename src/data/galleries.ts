@@ -5,7 +5,7 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
     { src: "/gallery/1.jpeg", alt: "Activity 1" },
-    { src: "/gallery/2.jpeg", alt: "Workshop" },
+    // { src: "/gallery/2.jpeg", alt: "Workshop" },
     { src: "/gallery/3.jpeg", alt: "Eco action" },
     { src: "/gallery/4.jpeg", alt: "Students" },
     { src: "/gallery/5.jpeg", alt: "Environment project" },
