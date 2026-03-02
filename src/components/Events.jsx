@@ -79,11 +79,11 @@ export const Events = () => {
                     ))}
                 </div>
 
-                <div className="mt-8 text-center md:hidden">
+                {/* <div className="mt-8 text-center md:hidden">
                     <a href="#" className="inline-flex items-center text-green-600 font-semibold hover:text-green-800 transition-colors">
                         View All Events <ArrowRight className="ml-2 h-5 w-5" />
                     </a>
-                </div>
+                </div> */}
             </div>
         </section>
     );

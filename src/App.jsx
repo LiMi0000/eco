@@ -22,9 +22,9 @@ const App = () => {
       {/* <Impact /> */}
       <About />
       <Events />
+      <GallerySection images={galleryImages} />
       <Blog />
       <Vision />
-      <GallerySection images={galleryImages} />
       <Contact />
       {/* <FAQ /> */}
       <Footer />
