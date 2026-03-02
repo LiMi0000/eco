@@ -10,7 +10,9 @@ import FAQ from './components/FAQ'
 import Vision from './components/VisionFortheFuture'
 import Impact from './components/ImpactNumbers'
 import LanguageSelector from './components/LanguageSelector'
+import GallerySection from './components/Gallery'
 // import Navbar from './components/Navbar'
+import { galleryImages } from './data/galleries'
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
       <Events />
       <Blog />
       <Vision />
+      <GallerySection images={galleryImages} />
       <Contact />
       {/* <FAQ /> */}
       <Footer />
