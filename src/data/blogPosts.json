@@ -21,9 +21,9 @@
     "id": 3,
     "date": "Jan 15, 2026",
     "tagKeys": ["science"],
-    "titleKey": "blogPOsts3.blog3Title",
-    "excerptKey": "blogPOsts3.blog3Description",
-    "authorKey": "blogPOsts3.blog3Author",
-    "contentKey": "blogPOsts3.blog3Content"
+    "titleKey": "blogPosts3.blog3Title",
+    "excerptKey": "blogPosts3.blog3Description",
+    "authorKey": "blogPosts3.blog3Author",
+    "contentKey": "blogPosts3.blog3Content"
   }
 ]
