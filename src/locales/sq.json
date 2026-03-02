@@ -6,6 +6,9 @@
     "blog": "Blogu",
     "contact": "Kontakti"
   },
+  "common": {
+    "back": "Mbrapa"
+  },
   "hero": {
     "smallText": "Edukimi i Gjeneratës së Ardhshme",
     "mainTitle": "Me edukim",
