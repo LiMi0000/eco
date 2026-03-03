@@ -34,7 +34,7 @@ export const Contact = () => {
                                     />
                                 </div>
                             </div>
-
+                            {/* 
                             <div className="flex items-start space-x-4">
                                 <div className="bg-green-700 p-3 rounded-lg">
                                     <Phone className="h-6 w-6 text-green-300" />
@@ -43,14 +43,18 @@ export const Contact = () => {
                                     <h4 className="font-bold text-lg">{t("contact.contactNumber")}</h4>
                                     <p className="text-green-100">(555) 123-4567</p>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="flex items-start space-x-4">
                                 <div className="bg-green-700 p-3 rounded-lg">
                                     <Mail className="h-6 w-6 text-green-300" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-lg">{t("contact.contactEmail")}</h4>
+                                    <h4 className="font-bold text-lg">
+                                        <a href="mailto:ecolearningschool@outlook.com">
+                                            {t("contact.contactEmail")}
+                                        </a>
+                                    </h4>
                                     <a href="mailto:ecolearningschool@outlook.com" className="text-green-100">ecolearningschool@outlook.com</a>
                                 </div>
                             </div>
