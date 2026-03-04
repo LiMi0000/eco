@@ -14,5 +14,5 @@ export const galleryImages: GalleryImage[] = [
     { src: "/gallery/8.jpeg", alt: "Nature walk" },
     { src: "/gallery/9.jpeg", alt: "Recycling project" },
     { src: "/gallery/10.jpeg", alt: "Tree planting" },
-    { src: "/gallery/11.jpeg", alt: "Tree planting" },
+    // { src: "/gallery/11.jpeg", alt: "Tree planting" },
 ];
