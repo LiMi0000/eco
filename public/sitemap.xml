@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>https://ecolearningschool.com/</loc>
+<priority>1.0</priority>
+</url>
+
+<url>
+<loc>https://ecolearningschool.com/blog</loc>
+</url>
+
+<url>
+<loc>https://ecolearningschool.com/events</loc>
+</url>
+
+<url>
+<loc>https://ecolearningschool.com/contact</loc>
+</url>
+
+<url>
+<loc>https://ecolearningschool.com/blog/1</loc>
+</url>
+
+<url>
+<loc>https://ecolearningschool.com/blog/2</loc>
+</url>
+
+<url>
+<loc>https://ecolearningschool.com/blog/3</loc>
+</url>
+
+</urlset>
