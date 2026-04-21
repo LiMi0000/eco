@@ -70,7 +70,7 @@ export const Events = () => {
                                 <div className="border-t border-gray-100 pt-4 flex items-center justify-between text-sm text-gray-500">
                                     <span className="flex items-center">
                                         <MapPin className="h-4 w-4 mr-1 text-gray-400" />
-                                        {t("events.eventLocation")}
+                                        {t(`events.event${event.id}Location`)}
                                     </span>
                                     <span>{event.time}</span>
                                 </div>

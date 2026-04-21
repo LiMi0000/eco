@@ -39,10 +39,15 @@
     "event1Title": "Eco-shkollat",
     "event2Title": "Aktivitetet makinerike dhe ruajtja e ambientit",
     "event3Title": "Mbeturinat elektronike dhe pasojat e saj në ambient.",
+    "event4Title": "Nenshkrimi I momerandumit per bashkpunim",
     "event1Description": "Hapat drejt eko-shkollave. Dëshira që shkolla juaj të zbatojë praktika të qëndrueshme mjedisore? Ndani këtë mendim dhe krijoni Ekipin e Gjelbër. Vendosni rregulla të qarta, por fleksibël të funksionimit për Ekipin e Gjelbër. Hartoni Planin e Veprimit të Gjelbër për shkollën Monitoroni, përshtatni dhe përmirësoni",
     "event2Description": "Marrja e njohurive të duhura mbi mbrojtjen e mjedisit nga aktivitetet makinerike, duke ndjekur trajnime periodike dhe praktikat e mbrojtjes së mjedisit.",
     "event3Description": "Ndikimet e pajisjeve elektronike dhe e-mbeturinave, si dhe mënyrat për menaxhimin e tyre në mënyrë të qëndrueshme.",
-    "eventLocation": "Nace Bugjoni-Kumanovë"
+    "event4Description": "Sot, në ambientet e Komunës së Likovës, patëm kënaqësinë të mirëpresim përfaqësuesit e Shoqatës Edukative, Ekologjike dhe Sociale Eko Learning. Ky takim u zhvillua me qёllim nënshkrimin e Memorandumit të Bashkёpunimit ndёrmjet Komunёs sё Likovёs dhe Shoqatёs Eko Learning School, duke synuar forcimin e bashkёpunimit dhe realizimin e aktiviteteve të pёrbashkёta në fushën e edukimit, mbrojtjes sё mjedisit dhe zhvillimit social.",
+    "event1Location": "Nace Bugjoni-Kumanovë",
+    "event2Location": "Nace Bugjoni-Kumanovë",
+    "event3Location": "Nace Bugjoni-Kumanovë",
+    "event4Location": "Komuna e Likoves"
   },
   "blogs": {
     "blogMainTitle": "Të fundit nga Blogu",

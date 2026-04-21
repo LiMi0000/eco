@@ -28,5 +28,15 @@
     "description": "Ndikimet e pajisjeve elektronike dhe e-mbeturinave, si dhe mënyrat për menaxhimin e tyre në mënyrë të qëndrueshme.",
     "image": "https://images.unsplash.com/photo-1642439986788-825f9075691e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwd3JpdGluZyUyMGluJTIwbm90ZWJvb2slMjBuYXR1cmUlMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc3MDEyODM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
     "tagKeys": ["environment"]
+  },
+  {
+    "id": 4,
+    "title": "Nenshkrimi I momerandumit per bashkpunim",
+    "date": "8.4.2026",
+    "time": "12:30 - 13:00",
+    "location": "Komuna e Likoves",
+    "description": "Sot, në ambientet e Komunës së Likovës, patëm kënaqësinë të mirëpresim përfaqësuesit e Shoqatës Edukative, Ekologjike dhe Sociale Eko Learning. Ky takim u zhvillua me qëllim nënshkrimin e Memorandumit të Bashkëpunimit ndërmjet Komunës së Likovës dhe Shoqatës Eko Learning School, duke synuar forcimin e bashkëpunimit dhe realizimin e aktiviteteve të përbashkëta në fushën e edukimit, mbrojtjes së mjedisit dhe zhvillimit social.",
+    "image": "/public/events/event1.jpeg",
+    "tagKeys": ["theoretical"]
   }
 ]
